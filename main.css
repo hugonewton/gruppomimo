@@ -13,10 +13,14 @@
     background-image: linear-gradient(to right, #C81124 0%, #F572BA 100%, #C81124 100%);
     transition: all 0.2s, transform 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
   }  
+.main-cta.pink {
+    background-size: 300% auto;
+    background-image: linear-gradient(to right, #F572BA 0%, #C81124 100%, #F572BA 100%);
+  }  
 
 
-  .main-cta:not(.cursor-exclude):hover {
+  .main-cta.pink:not(.cursor-exclude):hover {
     background-position: right center;
     transform: rotate(-3deg);
-    background-image: linear-gradient(to right, #C81124 0%, #F572BA 50%, #C81124 100%);
+    background-image: linear-gradient(to right, #F572BA 0%, #C81124 50%, #F572BA 100%);
   }
