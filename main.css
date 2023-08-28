@@ -15,7 +15,7 @@
   }  
 
 
-  .main-cta:hover {
+  .main-cta:not(.cursor-exclude):hover {
     background-position: right center;
     transform: rotate(-3deg);
     background-image: linear-gradient(to right, #C81124 0%, #F572BA 50%, #C81124 100%);
