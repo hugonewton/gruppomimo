@@ -53,3 +53,8 @@
     -o-transform: rotate(5deg);
     transform: rotate(5deg);
 }
+
+.footer-menu-item-container:hover .footer-menu-link-text {
+  letter-spacing: 10px;
+
+}
