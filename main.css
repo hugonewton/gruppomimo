@@ -18,6 +18,10 @@
     background-size: 300% auto;
     background-image: linear-gradient(to right, #F572BA 0%, #C81124 100%, #F572BA 100%);
   }  
+.main-cta.pink-clear {
+    background-size: 300% auto;
+    background-image: linear-gradient(to right, #F7B2D8 0%, #C81124 100%, #F7B2D8 100%);
+  }  
 
 
   .main-cta:not(.cursor-exclude):hover {
@@ -29,4 +33,9 @@
     background-position: right center;
     transform: rotate(-3deg);
     background-image: linear-gradient(to right, #F572BA 0%, #C81124 50%, #F572BA 100%);
+  }
+  .main-cta.pink-clear:not(.cursor-exclude):hover {
+    background-position: right center;
+    transform: rotate(-3deg);
+    background-image: linear-gradient(to right, #F7B2D8 0%, #C81124 50%, #F7B2D8 100%);
   }
