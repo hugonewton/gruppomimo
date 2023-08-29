@@ -55,6 +55,9 @@
 }
 
 .footer-menu-item-container:hover .footer-menu-link-text {
-  letter-spacing: 10px;
+  letter-spacing: 5px;
+}
 
+.main-h2 {
+  width: min-content;
 }
