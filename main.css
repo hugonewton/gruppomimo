@@ -69,6 +69,10 @@
   animation: spinnning 2s infinite linear;
 }
 
+.menu-link-item-container:hover .menu-link-text {
+  color: #f572ba;
+}
+
 @-webkit-keyframes spinnning {
   0% {
     -webkit-transform: rotate(-5deg);
