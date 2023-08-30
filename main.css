@@ -61,3 +61,28 @@
 .main-h2 {
   max-width: min-content;
 }
+
+.menu-link-item-container:hover .menu-link-thumb, 
+.menu-link-item-container:focus .menu-link-thumb {
+  filter: drop-shadow(0.1rem 0.1rem 1.4rem rgba(0, 0, 0, .9));
+  -webkit-animation: spinnning 4s infinite linear;
+  animation: spinnning 2s infinite linear;
+}
+
+@-webkit-keyframes spinnning {
+  0% {
+    -webkit-transform: rotate(-5deg);
+  }
+  25% {
+    -webkit-transform: rotate(5deg);
+  }
+  50% {
+    -webkit-transform: rotate(-5deg);
+  }
+  75% {
+    -webkit-transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+  }
+}
