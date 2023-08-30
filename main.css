@@ -68,7 +68,7 @@
 
 .menu-link-item-container:hover .menu-link-thumb, 
 .menu-link-item-container:focus .menu-link-thumb {
-  filter: drop-shadow(0.1rem 0.1rem 1rem rgba(0, 0, 0, .5));
+  filter: drop-shadow(0.1rem 0.1rem 1.2rem #f572ba);
   -webkit-animation: spinnning 1s infinite linear;
   animation: spinnning 1s infinite linear;
 }
