@@ -64,9 +64,9 @@
 
 .menu-link-item-container:hover .menu-link-thumb, 
 .menu-link-item-container:focus .menu-link-thumb {
-  filter: drop-shadow(0.1rem 0.1rem 1.4rem rgba(0, 0, 0, .9));
-  -webkit-animation: spinnning 4s infinite linear;
-  animation: spinnning 2s infinite linear;
+  filter: drop-shadow(0.1rem 0.1rem 1rem rgba(0, 0, 0, .5));
+  -webkit-animation: spinnning 1s infinite linear;
+  animation: spinnning 1s infinite linear;
 }
 
 .menu-link-item-container:hover .menu-link-text {
