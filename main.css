@@ -94,3 +94,9 @@
     -webkit-transform: rotate(-5deg);
   }
 }
+
+
+.nos-restaurant-closest-container {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
