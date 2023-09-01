@@ -95,8 +95,14 @@
   }
 }
 
-
 .nos-restaurant-closest-container {
   grid-column: 2/4;
   grid-row: 1/2;
+}
+
+
+@media (max-width: 767px) {
+  .nos-restaurant-closest-container {
+    grid-column: 1/2;
+  }
 }
