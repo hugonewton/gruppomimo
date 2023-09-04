@@ -117,16 +117,23 @@
   }
 }
 
-
-
-.people-face-img {
+.people-face-img,
+.img-franchise-food {
   animation: spinning 2s infinite linear;
   -webkit-animation: spinning 2s infinite linear;
 }
 
-.people-face-img:nth-of-type(1) {
+.people-face-img.benoit {
   animation-delay: .5s;
 }
-.people-face-img:nth-of-type(3) {
+.people-face-img.pietro {
   animation-delay: .75s;
+}
+
+.franchise-textblock-centered:nth-of-type(1) .img-franchise-food._1 {
+  animation-delay: .33s;
+}
+
+.img-franchise-food._2 {
+  animation-delay: .5s;
 }
