@@ -147,3 +147,11 @@
       left: calc(50% - 64.49px);
   }
 }
+
+.image[data-status="inactive"] {
+  display: none;
+}
+
+.image[data-status="active"] {
+  display: block;
+}
