@@ -154,6 +154,20 @@
   filter: drop-shadow(0.1rem 0.1rem 1.2rem #c81124);
 }
 
+.tab-link.illu.w--current,
+.tab-link.illu:hover {
+  filter: none;
+  background: #C81124;
+}
+
+.tab-link.illu.w--current .cls-1,
+.tab-link.illu:hover .cls-1{
+  fill: #f9f3de;
+}
+
+
+
+
 .restaurant-photo-container {
   -webkit-animation: marquee-photo 50s infinite linear;
   animation: marquee-photo 50s infinite linear;
