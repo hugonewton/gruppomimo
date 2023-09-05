@@ -151,5 +151,5 @@
 .tab-link:hover {
   -webkit-animation: spinning 1s infinite linear;
   animation: spinning 1s infinite linear;
-  filter: drop-shadow(0.1rem 0.1rem 1.2rem #f572ba);
+  filter: drop-shadow(0.1rem 0.1rem 1.2rem #c81124);
 }
