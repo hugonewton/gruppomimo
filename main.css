@@ -159,6 +159,10 @@
   animation: marquee-photo 50s infinite linear;
 }
 
+.restaurant-noms-container {
+  -webkit-animation: marquee-photo 20s infinite linear;
+  animation: marquee-photo 20s infinite linear;
+}
 
 @-webkit-keyframes marquee-photo {
   0% {
@@ -168,3 +172,4 @@
     -webkit-transform: translateX(-100%);
   }
 }
+
