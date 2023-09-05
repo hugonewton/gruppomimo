@@ -148,10 +148,10 @@
   }
 }
 
-.image[data-status="inactive"] {
+.img-souvenir[data-status="inactive"] {
   display: none;
 }
 
-.image[data-status="active"] {
+.img-souvenir[data-status="active"] {
   display: block;
 }
