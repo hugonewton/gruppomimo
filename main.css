@@ -153,3 +153,18 @@
   animation: spinning 1s infinite linear;
   filter: drop-shadow(0.1rem 0.1rem 1.2rem #c81124);
 }
+
+.restaurant-photo-container {
+  -webkit-animation: marquee-photo 50s infinite linear;
+  animation: marquee-photo 50s infinite linear;
+}
+
+
+@-webkit-keyframes marquee-photo {
+  0% {
+    -webkit-transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
