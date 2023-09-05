@@ -137,3 +137,13 @@
 .img-franchise-food._2 {
   animation-delay: .5s;
 }
+
+.main-cta.cta-hero {
+      left: calc(50% - 80.625px);
+}
+
+@media screen and (max-width: 991px) {
+  .main-cta.cta-hero {
+      left: calc(50% - 64.49px);
+  }
+}
