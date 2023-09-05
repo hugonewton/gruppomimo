@@ -4,7 +4,10 @@ console.log("ntm");
 console.log("ntm");
 console.log("ntm");
 
+
+// IMAGE TRAIL
 const images = document.getElementsByClassName("img-souvenir");
+let changeSpeed = 15;
 
 let globalIndex = 0,
     last = { x: 0, y: 0 };
@@ -24,7 +27,7 @@ const distanceFromLast = (x, y) => {
 }
 
 const handleOnMove = e => {
-  if(distanceFromLast(e.clientX, e.clientY) > (window.innerWidth / 20)) {
+  if(distanceFromLast(e.clientX, e.clientY) > (window.innerWidth / changeSpeed)) {
     const lead = images[globalIndex % images.length],
           tail = images[(globalIndex - 5) % images.length];
 
