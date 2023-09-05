@@ -63,13 +63,6 @@
   animation: spinning 1s infinite linear;
 }
 
-.tab-link.w--current,
-.tab-link:hover {
-  -webkit-animation: spinning 1s infinite linear;
-  animation: spinning 1s infinite linear;
-  filter: drop-shadow(0.1rem 0.1rem 1.2rem #f572ba);
-}
-
 .menu-link-item-container:hover .menu-link-text {
   color: #f572ba;
 }
@@ -151,4 +144,12 @@
 
 .img-souvenir[data-status="active"] {
   display: block;
+}
+
+
+.tab-link.w--current,
+.tab-link:hover {
+  -webkit-animation: spinning 1s infinite linear;
+  animation: spinning 1s infinite linear;
+  filter: drop-shadow(0.1rem 0.1rem 1.2rem #f572ba);
 }
