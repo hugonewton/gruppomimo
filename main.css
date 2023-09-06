@@ -204,6 +204,7 @@
   margin-bottom: 1em;
 }
 
-.w-commerce-commercecartcontainerwrapper {
+.w-commerce-commercecartcontainerwrapper,
+.w-commerce-commercecartcontainerwrapper--cartType-modal {
   height: 100vh;
 }
