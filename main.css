@@ -195,6 +195,11 @@
   margin: 1.3em 0 0.3em 0;
 }
 
-.job-offer-rich-text ul {
+.w-richhtext ul {
   padding-left: 22px;
+  margin-bottom: 0;
+}
+
+.w-richhtext.body-p p {
+  margin-bottom: 1em;
 }
