@@ -200,6 +200,10 @@
   margin-bottom: 0;
 }
 
-.w-richhtext.body-p p {
+.w-richtext.body-p p {
   margin-bottom: 1em;
+}
+
+.w-commerce-commercecartcontainerwrapper {
+  height: 100vh;
 }
