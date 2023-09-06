@@ -86,16 +86,16 @@ function onPlaceChanged() {
                 var minDistance = parseFloat(distances[0].innerHTML);
                 var minIndex = 0;
 
-                for (let i = 0; i < places.length; i++){
-                    // Ajout de l'ordre d'affichage du restaurant en fonction de sa distance
-                    places[i].style.order = parseFloat(places[i].attributes.distance.value);
+                // for (let i = 0; i < places.length; i++){
+                //     // Ajout de l'ordre d'affichage du restaurant en fonction de sa distance
+                //     places[i].style.order = parseFloat(places[i].attributes.distance.value);
 
-                    // Recherche de la plus petite valeur de distance pour affichage du macaron
-                    if (parseFloat(places[i].attributes.distance.value) < parseFloat(minDistance)){
-                        minIndex = i;
-                        minDistance = places[i].attributes.distance.value;
-                    }
-                }
+                //     // Recherche de la plus petite valeur de distance pour affichage du macaron
+                //     if (parseFloat(places[i].attributes.distance.value) < parseFloat(minDistance)){
+                //         minIndex = i;
+                //         minDistance = places[i].attributes.distance.value;
+                //     }
+                // }
 
                 // Ajout du macaron le plus proche
                 Array.prototype.forEach.call(macaronsClosest, function(macaronsClosest){
