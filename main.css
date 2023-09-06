@@ -187,3 +187,14 @@
   }
 }
 
+
+
+.job-offer-rich-text h4:not(:first-child) {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 1.3em 0 0.3em 0;
+}
+
+.job-offer-rich-text ul {
+  padding-left: 22px;
+}
