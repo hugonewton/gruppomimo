@@ -76,7 +76,8 @@ function onPlaceChanged() {
 
                     // Ajout d'un attribut avec la valeur de distance pour chaque restaurant pour préparer le tri
                     places[i].setAttribute('distance',distances[i].innerHTML);
-                    places[i].style.order = Math.round(distances[i]);
+                    // places[i].style.order = Math.round(distances[i]);
+                    places[i].style.order = '1';
                 }
 
                 // Affichage des distancesContainer
