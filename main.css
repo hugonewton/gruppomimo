@@ -1,4 +1,4 @@
-.main-cta {
+.main-cta:not(.whitish) {
     background-size: 300% auto;
     background-image: linear-gradient(to right, #C81124 0%, #F572BA 100%, #C81124 100%);
     transition: all 0.2s, transform 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
