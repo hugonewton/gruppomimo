@@ -48,9 +48,9 @@
   letter-spacing: 5px;
 }
 
-.main-h2 {
+/* .main-h2 {
   max-width: min-content;
-}
+} */
 
 .menu-link-item-container > * {
   transition: all .2s ease;
