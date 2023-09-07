@@ -100,11 +100,16 @@
     grid-row: 1 / span 1;
 }
 
-/* Only on desktop */
+
 @media (max-width: 767px) {
   .nos-restaurant-closest-container {
     grid-column: 1/2;
   }
+
+}
+
+/* Only on desktop */
+@media (min-width: 767px) {
   a:hover {
     cursor:  none;
   }
