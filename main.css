@@ -100,10 +100,13 @@
     grid-row: 1 / span 1;
 }
 
-
+/* Only on desktop */
 @media (max-width: 767px) {
   .nos-restaurant-closest-container {
     grid-column: 1/2;
+  }
+  a:hover {
+    cursor:  none;
   }
 }
 
@@ -169,13 +172,13 @@
 
 
 .restaurant-photo-container {
-  -webkit-animation: marquee-photo 50s infinite linear;
-  animation: marquee-photo 50s infinite linear;
+  -webkit-animation: marquee-photo 25s infinite linear;
+  animation: marquee-photo25s infinite linear;
 }
 
 .restaurant-noms-container {
-  -webkit-animation: marquee-photo 20s infinite linear;
-  animation: marquee-photo 20s infinite linear;
+  -webkit-animation: marquee-photo 10s infinite linear;
+  animation: marquee-photo 10s infinite linear;
 }
 
 @-webkit-keyframes marquee-photo {
@@ -183,7 +186,7 @@
     -webkit-transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(-100%);
+    -webkit-transform: translateX(-40%);
   }
 }
 
