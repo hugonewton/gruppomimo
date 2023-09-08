@@ -111,7 +111,8 @@
 /* Only on desktop */
 @media (min-width: 767px) {
   a:hover,
-  .hamburger-menu-hm3:hover {
+  .hamburger-menu-hm3:hover,
+  input:hover {
     cursor:  none;
   } 
 }
