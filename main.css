@@ -110,9 +110,10 @@
 
 /* Only on desktop */
 @media (min-width: 767px) {
-  a:hover {
+  a:hover,
+  .hamburger-menu-hm3:hover {
     cursor:  none;
-  }
+  } 
 }
 
 .people-face-img,
@@ -216,3 +217,4 @@
 .w-commerce-commercecartcontainerwrapper--cartType-modal {
   height: 100vh;
 }
+
