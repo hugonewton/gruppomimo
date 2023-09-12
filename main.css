@@ -219,3 +219,12 @@
   height: 100vh;
 }
 
+@media screen and (max-width: 479px) {  
+  .w-lightbox-close {
+    left: 7vw;
+    background-size: 24px;
+    top: 5px;
+  }
+}
+
+
