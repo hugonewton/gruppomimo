@@ -180,7 +180,7 @@
 
 .restaurant-photo-container {
   -webkit-animation: marquee-photo 25s infinite linear;
-  animation: marquee-photo25s infinite linear;
+  animation: marquee-photo 25s infinite linear;
 }
 
 .restaurant-noms-container {
