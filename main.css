@@ -139,14 +139,16 @@
 }
 
 .main-cta.cta-hero {
-      left: calc(50% - 80.625px);
+  left: calc(50% - 129.01px);
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
   .main-cta.cta-hero {
-      left: calc(50% - 64.49px);
+      left: calc(50% - 103.205px);
   }
 }
+
+
 
 .img-souvenir[data-status="inactive"] {
   display: none;
