@@ -230,3 +230,6 @@
 }
 
 
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  border: none;
+}
