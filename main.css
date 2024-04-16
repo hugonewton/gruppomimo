@@ -233,3 +233,16 @@
 .w-checkbox-input--inputType-custom.w--redirected-checked {
   border: none;
 }
+
+.new-wrapper-svg {
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
